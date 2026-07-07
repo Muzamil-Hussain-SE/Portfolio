@@ -1,0 +1,47 @@
+name: real_pf
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: ArchivoBlack
+      fonts:
+        - asset: fonts/ArchivoBlack-Regular.ttf
+
+    - family: Inter
+      fonts:
+        - asset: "fonts/Inter-VariableFont_opsz,wght.ttf"
+        - asset: "fonts/Inter-Italic-VariableFont_opsz,wght.ttf"
+          style: italic
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: "fonts/PlayfairDisplay-VariableFont_wght.ttf"
+        - asset: "fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf"
+          style: italic
+
+    - family: Roboto
+      fonts:
+        - asset: "fonts/Roboto-VariableFont_wdth,wght.ttf"
+        - asset: "fonts/Roboto-Italic-VariableFont_wdth,wght.ttf"
+          style: italic
+    - family: ChangaOne
+      fonts:
+        - asset: fonts/ChangaOne-Regular.ttf
+        - asset: fonts/ChangaOne-Italic.ttf
