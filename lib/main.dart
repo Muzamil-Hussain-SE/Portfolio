@@ -136,7 +136,11 @@ class MainApp extends StatelessWidget {
                   left: 480,
                   child: Text(
                     'TECH STACK.',
-                    style: TextStyle(fontSize: 50, fontFamily: 'ChangaOne'),
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 97, 136, 153),
+                      fontSize: 50,
+                      fontFamily: 'ChangaOne',
+                    ),
                   ),
                 ),
                 Positioned(
@@ -144,7 +148,7 @@ class MainApp extends StatelessWidget {
                   left: 465,
                   child: Container(
                     alignment: Alignment.center,
-                    height: 252,
+                    height: 303,
                     width: 300,
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.black),
@@ -187,6 +191,14 @@ class MainApp extends StatelessWidget {
                         ),
                         Text(
                           'CSS',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 35,
+                            fontFamily: 'BlackArchivo',
+                          ),
+                        ),
+                        Text(
+                          'Firebase',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 35,
