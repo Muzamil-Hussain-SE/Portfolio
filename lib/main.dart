@@ -136,22 +136,6 @@ class MainApp extends StatelessWidget {
                     child: Image.asset('icons/bg.jpg', fit: BoxFit.cover),
                   ),
                   Positioned(
-                    top: 60,
-                    left: 430,
-                    child: Row(
-                      children: [
-                        Image.asset('icons/C_icon.png'),
-                        Image.asset('icons/cpp_icon.png'),
-                        Image.asset('icons/css_icon.png'),
-                        Image.asset('icons/Dart_icon.png'),
-                        Image.asset('icons/firebase.png'),
-                        Image.asset('icons/flutter_icon.png'),
-                        Image.asset('icons/html.png'),
-                        Image.asset('icons/py_icon.png'),
-                      ],
-                    ),
-                  ),
-                  Positioned(
                     top: 120,
                     left: 460,
                     child: Row(
@@ -163,6 +147,110 @@ class MainApp extends StatelessWidget {
                             color: Color.fromARGB(255, 97, 136, 153),
                             fontSize: 50,
                             fontFamily: 'ChangaOne',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Positioned(
+                    top: 220,
+                    left: 475,
+                    child: Column(
+                      children: [
+                        Container(
+                          alignment: Alignment.center,
+                          height: 50,
+                          width: 170,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            border: Border.all(color: Colors.white),
+                            borderRadius: BorderRadius.circular(12.0),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset('icons/C_icon.png'),
+                              Text(
+                                'C',
+                                style: TextStyle(
+                                  fontFamily: 'ArchivoBlack',
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.center,
+                          height: 50,
+                          width: 170,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            border: Border.all(color: Colors.white),
+                            borderRadius: BorderRadius.circular(12.0),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset('icons/html.png'),
+                              Text(
+                                'HTML',
+                                style: TextStyle(
+                                  fontFamily: 'ArchivoBlack',
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.center,
+                          height: 50,
+                          width: 170,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            border: Border.all(color: Colors.white),
+                            borderRadius: BorderRadius.circular(12.0),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset('icons/css_icon.png'),
+                              Text(
+                                'CSS',
+                                style: TextStyle(
+                                  fontFamily: 'ArchivoBlack',
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.center,
+                          height: 50,
+                          width: 170,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            border: Border.all(color: Colors.white),
+                            borderRadius: BorderRadius.circular(12.0),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset('icons/Dart_icon.png'),
+                              Text(
+                                'Dart',
+                                style: TextStyle(
+                                  fontFamily: 'ArchivoBlack',
+                                  fontSize: 35,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
