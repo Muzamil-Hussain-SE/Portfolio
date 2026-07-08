@@ -129,135 +129,207 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox.expand(
-              child: Stack(
-                children: [
-                  Positioned.fill(
-                    child: Image.asset('icons/bg.jpg', fit: BoxFit.cover),
+            Stack(
+              children: [
+                Positioned.fill(
+                  child: Image.asset('icons/bg2.jpg', fit: BoxFit.cover),
+                ),
+                Positioned(
+                  top: 120,
+                  left: 460,
+                  child: Row(
+                    children: [
+                      Image.asset('icons/stack.png'),
+                      Text(
+                        'TECH STACK.',
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 97, 136, 153),
+                          fontSize: 50,
+                          fontFamily: 'ChangaOne',
+                        ),
+                      ),
+                    ],
                   ),
-                  Positioned(
-                    top: 120,
-                    left: 460,
+                ),
+                Positioned(
+                  top: 210,
+                  left: 400,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 97, 136, 153),
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Image.asset('icons/stack.png'),
+                        Image.asset('icons/py_icon.png'),
                         Text(
-                          'TECH STACK.',
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 97, 136, 153),
-                            fontSize: 50,
-                            fontFamily: 'ChangaOne',
-                          ),
+                          'Python',
+                          style: TextStyle(fontSize: 30, color: Colors.white),
                         ),
                       ],
                     ),
                   ),
-                  Positioned(
-                    top: 220,
-                    left: 475,
-                    child: Column(
+                ),
+                Positioned(
+                  top: 270,
+                  left: 370,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 97, 136, 153),
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Container(
-                          alignment: Alignment.center,
-                          height: 50,
-                          width: 170,
-                          decoration: BoxDecoration(
-                            color: Color.fromARGB(255, 97, 136, 153),
-                            border: Border.all(color: Colors.white),
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Image.asset('icons/C_icon.png'),
-                              Text(
-                                'C',
-                                style: TextStyle(
-                                  fontFamily: 'ArchivoBlack',
-                                  fontSize: 35,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
+                        Image.asset('icons/C_icon.png'),
+                        Text(
+                          'C',
+                          style: TextStyle(fontSize: 30, color: Colors.white),
                         ),
-                        Container(
-                          alignment: Alignment.center,
-                          height: 50,
-                          width: 170,
-                          decoration: BoxDecoration(
-                            color: Color.fromARGB(255, 97, 136, 153),
-                            border: Border.all(color: Colors.white),
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Image.asset('icons/html.png'),
-                              Text(
-                                'HTML',
-                                style: TextStyle(
-                                  fontFamily: 'ArchivoBlack',
-                                  fontSize: 35,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 330,
+                  left: 350,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 97, 136, 153),
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/Dart_icon.png'),
+                        Text(
+                          'Dart',
+                          style: TextStyle(fontSize: 30, color: Colors.white),
                         ),
-                        Container(
-                          alignment: Alignment.center,
-                          height: 50,
-                          width: 170,
-                          decoration: BoxDecoration(
-                            color: Color.fromARGB(255, 97, 136, 153),
-                            border: Border.all(color: Colors.white),
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Image.asset('icons/css_icon.png'),
-                              Text(
-                                'CSS',
-                                style: TextStyle(
-                                  fontFamily: 'ArchivoBlack',
-                                  fontSize: 35,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 390,
+                  left: 330,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(255, 97, 136, 153),
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/html.png'),
+                        Text(
+                          'HTML',
+                          style: TextStyle(fontSize: 30, color: Colors.white),
                         ),
-                        Container(
-                          alignment: Alignment.center,
-                          height: 50,
-                          width: 170,
-                          decoration: BoxDecoration(
+                      ],
+                    ),
+                  ),
+                ),
+
+                Positioned(
+                  top: 210,
+                  left: 600,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/firebase.png'),
+                        Text(
+                          'Firebase',
+                          style: TextStyle(
+                            fontSize: 30,
                             color: Color.fromARGB(255, 97, 136, 153),
-                            border: Border.all(color: Colors.white),
-                            borderRadius: BorderRadius.circular(12.0),
-                          ),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Image.asset('icons/Dart_icon.png'),
-                              Text(
-                                'Dart',
-                                style: TextStyle(
-                                  fontFamily: 'ArchivoBlack',
-                                  fontSize: 35,
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
                           ),
                         ),
                       ],
                     ),
                   ),
-                ],
-              ),
+                ),
+                Positioned(
+                  top: 270,
+                  left: 650,
+                  child: Container(
+                    height: 50,
+                    width: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/cpp_icon.png'),
+                        Text(
+                          'C++',
+                          style: TextStyle(
+                            fontSize: 30,
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 330,
+                  left: 670,
+                  child: Container(
+                    height: 50,
+                    width: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/flutter_icon.png'),
+                        Text(
+                          'Flutter',
+                          style: TextStyle(
+                            fontSize: 30,
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
