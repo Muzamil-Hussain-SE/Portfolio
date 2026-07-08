@@ -14,6 +14,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
+          backgroundColor: Colors.white,
           title: Text(
             'MUZAMIL.',
             style: TextStyle(fontFamily: 'ChangaOne', fontSize: 25),
@@ -79,7 +80,44 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(fontFamily: 'Roboto'),
               ),
             ),
-            Positioned(child: Image.asset()),
+            Positioned(
+              top: 270,
+              left: 80,
+              child: Text(
+                'BSCS Student at SIBAU',
+                style: TextStyle(fontFamily: 'Roboto'),
+              ),
+            ),
+            Positioned(left: 500, child: Image.asset('me.jpeg')),
+            Positioned(
+              top: 330,
+              left: 100,
+              child: Container(
+                alignment: Alignment.center,
+                height: 40,
+                width: 100,
+                decoration: BoxDecoration(
+                  color: Colors.teal.shade100,
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: Text('GitHub', style: TextStyle(color: Colors.white)),
+              ),
+            ),
+            Positioned(
+              top: 330,
+              left: 210,
+              child: Container(
+                alignment: Alignment.center,
+                height: 40,
+                width: 100,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(color: Colors.black),
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: Text('Contact', style: TextStyle(color: Colors.black)),
+              ),
+            ),
           ],
         ),
       ),

@@ -15,6 +15,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
+ 
+
 
 flutter:
   uses-material-design: true
@@ -45,3 +47,10 @@ flutter:
       fonts:
         - asset: fonts/ChangaOne-Regular.ttf
         - asset: fonts/ChangaOne-Italic.ttf
+
+
+  assets:
+    - assets/
+
+
+
