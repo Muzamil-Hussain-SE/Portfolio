@@ -129,87 +129,47 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),
-            Stack(
-              children: [
-                Positioned(
-                  top: 100,
-                  left: 480,
-                  child: Text(
-                    'TECH STACK.',
-                    style: TextStyle(
-                      color: Color.fromARGB(255, 97, 136, 153),
-                      fontSize: 50,
-                      fontFamily: 'ChangaOne',
+            SizedBox.expand(
+              child: Stack(
+                children: [
+                  Positioned.fill(
+                    child: Image.asset('icons/bg.jpg', fit: BoxFit.cover),
+                  ),
+                  Positioned(
+                    top: 60,
+                    left: 430,
+                    child: Row(
+                      children: [
+                        Image.asset('icons/C_icon.png'),
+                        Image.asset('icons/cpp_icon.png'),
+                        Image.asset('icons/css_icon.png'),
+                        Image.asset('icons/Dart_icon.png'),
+                        Image.asset('icons/firebase.png'),
+                        Image.asset('icons/flutter_icon.png'),
+                        Image.asset('icons/html.png'),
+                        Image.asset('icons/py_icon.png'),
+                      ],
                     ),
                   ),
-                ),
-                Positioned(
-                  top: 200,
-                  left: 465,
-                  child: Container(
-                    alignment: Alignment.center,
-                    height: 303,
-                    width: 300,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
-                      color: const Color.fromARGB(255, 97, 136, 153),
-                    ),
-                    child: Column(
+                  Positioned(
+                    top: 120,
+                    left: 460,
+                    child: Row(
                       children: [
+                        Image.asset('icons/stack.png'),
                         Text(
-                          'C/C++',
+                          'TECH STACK.',
                           style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
-                          ),
-                        ),
-                        Text(
-                          'HTML',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
-                          ),
-                        ),
-                        Text(
-                          'DART',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
-                          ),
-                        ),
-                        Text(
-                          'Flutter',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
-                          ),
-                        ),
-                        Text(
-                          'CSS',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
-                          ),
-                        ),
-                        Text(
-                          'Firebase',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 35,
-                            fontFamily: 'BlackArchivo',
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            fontSize: 50,
+                            fontFamily: 'ChangaOne',
                           ),
                         ),
                       ],
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ],
         ),
