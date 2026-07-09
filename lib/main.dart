@@ -152,8 +152,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 220,
-                  left: 290,
+                  top: 190,
+                  left: 340,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -347,6 +347,60 @@ class MainApp extends StatelessWidget {
                         Image.asset('icons/css_icon.png'),
                         Text(
                           'CSS',
+                          style: TextStyle(
+                            fontSize: 30,
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 350,
+                  right: 330,
+                  child: Container(
+                    height: 50,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(60.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/godot.png'),
+                        Text(
+                          'Godot',
+                          style: TextStyle(
+                            fontSize: 30,
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 250,
+                  left: 200,
+                  child: Container(
+                    height: 50,
+                    width: 210,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(60.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/js.png'),
+                        Text(
+                          'Javascript',
                           style: TextStyle(
                             fontSize: 30,
                             color: Color.fromARGB(255, 97, 136, 153),
