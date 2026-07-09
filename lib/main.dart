@@ -177,7 +177,7 @@ class MainApp extends StatelessWidget {
                 ),
                 Positioned(
                   top: 290,
-                  left: 600,
+                  left: 480,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -200,8 +200,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 330,
-                  left: 350,
+                  top: 190,
+                  right: 380,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -224,15 +224,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 390,
-                  left: 330,
+                  top: 330,
+                  left: 290,
                   child: Container(
                     height: 50,
                     width: 180,
                     decoration: BoxDecoration(
                       color: Color.fromARGB(255, 97, 136, 153),
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -303,15 +303,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 330,
-                  left: 670,
+                  top: 280,
+                  left: 720,
                   child: Container(
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -330,15 +330,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 390,
-                  left: 700,
+                  top: 110,
+                  right: 400,
                   child: Container(
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
