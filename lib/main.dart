@@ -132,10 +132,10 @@ class MainApp extends StatelessWidget {
             Stack(
               children: [
                 Positioned.fill(
-                  child: Image.asset('icons/bg2.jpg', fit: BoxFit.cover),
+                  child: Image.asset('icons/bg3.jpeg', fit: BoxFit.cover),
                 ),
                 Positioned(
-                  top: 120,
+                  top: 200,
                   left: 460,
                   child: Row(
                     children: [
@@ -152,15 +152,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 210,
-                  left: 400,
+                  top: 150,
+                  left: 350,
                   child: Container(
                     height: 50,
                     width: 180,
                     decoration: BoxDecoration(
                       color: Color.fromARGB(255, 97, 136, 153),
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -176,15 +176,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 270,
-                  left: 370,
+                  top: 290,
+                  left: 600,
                   child: Container(
                     height: 50,
                     width: 180,
                     decoration: BoxDecoration(
                       color: Color.fromARGB(255, 97, 136, 153),
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -208,7 +208,7 @@ class MainApp extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Color.fromARGB(255, 97, 136, 153),
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -249,7 +249,7 @@ class MainApp extends StatelessWidget {
                 ),
 
                 Positioned(
-                  top: 210,
+                  top: 120,
                   left: 600,
                   child: Container(
                     height: 50,
@@ -257,7 +257,7 @@ class MainApp extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -276,15 +276,15 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 270,
-                  left: 650,
+                  top: 250,
+                  left: 300,
                   child: Container(
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       border: Border.all(color: Colors.black),
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(60.0),
                     ),
 
                     child: Row(
@@ -320,6 +320,33 @@ class MainApp extends StatelessWidget {
                         Image.asset('icons/flutter_icon.png'),
                         Text(
                           'Flutter',
+                          style: TextStyle(
+                            fontSize: 30,
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 390,
+                  left: 700,
+                  child: Container(
+                    height: 50,
+                    width: 150,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      border: Border.all(color: Colors.black),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset('icons/css_icon.png'),
+                        Text(
+                          'CSS',
                           style: TextStyle(
                             fontSize: 30,
                             color: Color.fromARGB(255, 97, 136, 153),
