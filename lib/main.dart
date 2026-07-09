@@ -135,7 +135,7 @@ class MainApp extends StatelessWidget {
                   child: Image.asset('icons/bg3.jpeg', fit: BoxFit.cover),
                 ),
                 Positioned(
-                  top: 200,
+                  top: 110,
                   left: 460,
                   child: Row(
                     children: [
@@ -152,8 +152,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 150,
-                  left: 350,
+                  top: 220,
+                  left: 290,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -200,8 +200,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 190,
-                  right: 380,
+                  top: 220,
+                  right: 340,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -224,8 +224,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 330,
-                  left: 290,
+                  top: 370,
+                  right: 600,
                   child: Container(
                     height: 50,
                     width: 180,
@@ -249,7 +249,7 @@ class MainApp extends StatelessWidget {
                 ),
 
                 Positioned(
-                  top: 120,
+                  top: 200,
                   left: 600,
                   child: Container(
                     height: 50,
@@ -276,8 +276,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 250,
-                  left: 300,
+                  top: 320,
+                  left: 180,
                   child: Container(
                     height: 50,
                     width: 150,
@@ -303,8 +303,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 280,
-                  left: 720,
+                  top: 380,
+                  left: 350,
                   child: Container(
                     height: 50,
                     width: 150,
@@ -330,8 +330,8 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Positioned(
-                  top: 110,
-                  right: 400,
+                  top: 290,
+                  right: 500,
                   child: Container(
                     height: 50,
                     width: 150,
