@@ -412,6 +412,54 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),
+            Stack(
+              children: [
+                Positioned.fill(
+                  child: Image.asset('icons/bg3.jpeg', fit: BoxFit.cover),
+                ),
+                Positioned(
+                  top: 80,
+                  left: 500,
+                  child: Text(
+                    'EDUCATION',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 50,
+                      fontFamily: 'ArchivoBlack',
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 180,
+                  left: 520,
+                  child: Container(
+                    height: 70,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: Colors.white12,
+                      borderRadius: BorderRadius.circular(11.0),
+                      border: Border.all(color: Colors.black),
+                    ),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 50,
+                          width: 50,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 97, 136, 153),
+                            borderRadius: BorderRadius.circular(10.0),
+                          ),
+                          child: Icon(
+                            Icons.school_outlined,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
