@@ -433,26 +433,46 @@ class MainApp extends StatelessWidget {
                   top: 180,
                   left: 520,
                   child: Container(
-                    height: 70,
+                    height: 100,
                     width: 300,
                     decoration: BoxDecoration(
                       color: Colors.white12,
                       borderRadius: BorderRadius.circular(11.0),
-                      border: Border.all(color: Colors.black),
+                      border: Border.all(color: Colors.black12),
                     ),
                     child: Row(
                       children: [
-                        Container(
-                          height: 50,
-                          width: 50,
-                          decoration: BoxDecoration(
-                            color: Color.fromARGB(255, 97, 136, 153),
-                            borderRadius: BorderRadius.circular(10.0),
-                          ),
-                          child: Icon(
-                            Icons.school_outlined,
-                            color: Colors.white,
-                          ),
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            SizedBox(width: 30),
+                            Container(
+                              height: 50,
+                              width: 50,
+                              decoration: BoxDecoration(
+                                color: Color.fromARGB(255, 97, 136, 153),
+                                borderRadius: BorderRadius.circular(10.0),
+                              ),
+                              child: Icon(
+                                Icons.school_outlined,
+                                color: Colors.white,
+                              ),
+                            ),
+                            Text(
+                              'High School',
+                              style: TextStyle(
+                                color: Color.fromARGB(255, 97, 136, 153),
+                                fontFamily: 'PlayfairDisplay',
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            Text('Matriculation - Science'),
+                            Text('2020-2022'),
+                          ],
                         ),
                       ],
                     ),
