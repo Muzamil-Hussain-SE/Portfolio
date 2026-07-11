@@ -431,10 +431,10 @@ class MainApp extends StatelessWidget {
                 ),
                 Positioned(
                   top: 180,
-                  left: 520,
+                  left: 504,
                   child: Container(
                     height: 100,
-                    width: 300,
+                    width: 330,
                     decoration: BoxDecoration(
                       color: Colors.white12,
                       borderRadius: BorderRadius.circular(11.0),
@@ -442,36 +442,167 @@ class MainApp extends StatelessWidget {
                     ),
                     child: Row(
                       children: [
+                        SizedBox(width: 20),
+                        Container(
+                          height: 45,
+                          width: 45,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12.0),
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                          child: Icon(
+                            Icons.school_outlined,
+                            color: Colors.white,
+                          ),
+                        ),
+                        SizedBox(width: 8),
                         Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            SizedBox(width: 30),
-                            Container(
-                              height: 50,
-                              width: 50,
-                              decoration: BoxDecoration(
-                                color: Color.fromARGB(255, 97, 136, 153),
-                                borderRadius: BorderRadius.circular(10.0),
+                            SizedBox(height: 28.0),
+                            Text(
+                              'Matriculation - Science',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Inter',
                               ),
-                              child: Icon(
-                                Icons.school_outlined,
-                                color: Colors.white,
+                            ),
+                            Text(
+                              '2020 - 2022',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
+                                color: Colors.black45,
                               ),
                             ),
                             Text(
                               'High School',
                               style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
                                 color: Color.fromARGB(255, 97, 136, 153),
-                                fontFamily: 'PlayfairDisplay',
-                                fontWeight: FontWeight.bold,
                               ),
                             ),
                           ],
                         ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 285,
+                  left: 504,
+                  child: Container(
+                    height: 100,
+                    width: 330,
+                    decoration: BoxDecoration(
+                      color: Colors.white12,
+                      borderRadius: BorderRadius.circular(11.0),
+                      border: Border.all(color: Colors.black12),
+                    ),
+                    child: Row(
+                      children: [
+                        SizedBox(width: 20),
+                        Container(
+                          height: 45,
+                          width: 45,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12.0),
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                          child: Icon(
+                            Icons.school_outlined,
+                            color: Colors.white,
+                          ),
+                        ),
+                        SizedBox(width: 8),
                         Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Matriculation - Science'),
-                            Text('2020-2022'),
+                            SizedBox(height: 28.0),
+                            Text(
+                              'Intermediate - Computer Science',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Inter',
+                              ),
+                            ),
+                            Text(
+                              '2020 - 2022',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
+                                color: Colors.black45,
+                              ),
+                            ),
+                            Text(
+                              'MTB College',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
+                                color: Color.fromARGB(255, 97, 136, 153),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 390,
+                  left: 504,
+                  child: Container(
+                    height: 100,
+                    width: 330,
+                    decoration: BoxDecoration(
+                      color: Colors.white12,
+                      borderRadius: BorderRadius.circular(11.0),
+                      border: Border.all(color: Colors.black12),
+                    ),
+                    child: Row(
+                      children: [
+                        SizedBox(width: 20),
+                        Container(
+                          height: 45,
+                          width: 45,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12.0),
+                            color: Color.fromARGB(255, 97, 136, 153),
+                          ),
+                          child: Icon(
+                            Icons.school_outlined,
+                            color: Colors.white,
+                          ),
+                        ),
+                        SizedBox(width: 8),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            SizedBox(height: 28.0),
+                            Text(
+                              'BSCS - Computer Science',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Inter',
+                              ),
+                            ),
+                            Text(
+                              '2026 - 2030',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
+                                color: Colors.black45,
+                              ),
+                            ),
+                            Text(
+                              'SIBAU',
+                              style: TextStyle(
+                                fontWeight: FontWeight.w600,
+                                fontFamily: 'Inter',
+                                color: Color.fromARGB(255, 97, 136, 153),
+                              ),
+                            ),
                           ],
                         ),
                       ],
