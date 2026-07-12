@@ -424,7 +424,7 @@ class MainApp extends StatelessWidget {
                     'EDUCATION',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 50,
+                      fontSize: 45,
                       fontFamily: 'ArchivoBlack',
                     ),
                   ),
