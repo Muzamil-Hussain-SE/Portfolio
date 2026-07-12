@@ -611,6 +611,93 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),
+            Stack(
+              children: [
+                Positioned.fill(
+                  child: Image.asset('icons/bg3.jpeg', fit: BoxFit.cover),
+                ),
+                Positioned(
+                  top: 120,
+                  left: 220,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Say Hi!',
+                        style: TextStyle(
+                          fontSize: 75,
+                          fontFamily: 'ChangaOne',
+                          color: Color.fromARGB(255, 97, 136, 153),
+                        ),
+                      ),
+                      Text(
+                        "Got something in mind? Let's Talk.",
+                        style: TextStyle(
+                          fontFamily: 'Roboto',
+
+                          color: Colors.black45,
+                          fontSize: 20,
+                        ),
+                      ),
+                      SizedBox(height: 30),
+                      Row(
+                        children: [
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.black26,
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: Image.asset('icons/GitHub.png'),
+                          ),
+                          SizedBox(width: 15.0),
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.black26,
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: Image.asset('icons/email.png'),
+                          ),
+                          SizedBox(width: 15.0),
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.black26,
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: Image.asset('icons/Linkedin.png'),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 14.0),
+                      Text(
+                        'Contact me',
+                        style: TextStyle(
+                          fontFamily: 'Inter',
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black38,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Positioned(
+                  top: 130,
+                  right: 300,
+                  child: Container(
+                    height: 230,
+                    width: 230,
+                    child: CircleAvatar(
+                      backgroundImage: AssetImage('icons/pfp3.png'),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
