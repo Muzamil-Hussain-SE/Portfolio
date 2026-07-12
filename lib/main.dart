@@ -692,7 +692,7 @@ class MainApp extends StatelessWidget {
                     height: 230,
                     width: 230,
                     child: CircleAvatar(
-                      backgroundImage: AssetImage('icons/pfp3.png'),
+                      backgroundImage: AssetImage('icons/pfp5_notext.gif'),
                     ),
                   ),
                 ),
