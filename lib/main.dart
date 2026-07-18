@@ -674,7 +674,7 @@ class MainApp extends StatelessWidget {
                                     color: Colors.white,
                                   ),
                                   Container(
-                                    width: 350,
+                                    width: 305,
                                     height: 200,
                                     decoration: BoxDecoration(
                                       border: Border.all(color: Colors.white),
@@ -773,7 +773,7 @@ class MainApp extends StatelessWidget {
                                   ),
                                   Container(
                                     width: 200,
-                                    height: 100,
+                                    height: 70,
                                     decoration: BoxDecoration(
                                       border: Border.all(color: Colors.white),
                                       borderRadius: BorderRadius.circular(20),
