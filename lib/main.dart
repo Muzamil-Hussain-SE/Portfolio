@@ -126,15 +126,21 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 w >= h
-                    ? Positioned(right: 50, child: Image.asset('me.jpeg'))
+                    ? Positioned(
+                        right: 50,
+                        child: Image.network(
+                          "https://i.ibb.co/rGX9fG30/me.jpg",
+                        ),
+                      )
                     : Positioned(
                         top: 400,
                         left: 50,
                         child: Center(
-                          child: Image.asset(
-                            'assets/me.jpeg',
-                            width: 400,
-                            height: 720,
+                          child: Image.network(
+                            "https://i.ibb.co/rGX9fG30/me.jpg",
+                            fit: BoxFit.cover,
+                            // width: 400,
+                            // height: 720,
                           ),
                         ),
                       ),
