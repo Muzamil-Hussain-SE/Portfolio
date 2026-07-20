@@ -132,7 +132,7 @@ class MainApp extends StatelessWidget {
                         left: 50,
                         child: Center(
                           child: Image.asset(
-                            'me.jpeg',
+                            'assets/me.jpeg',
                             width: 400,
                             height: 720,
                           ),
@@ -205,11 +205,7 @@ class MainApp extends StatelessWidget {
                           padding: EdgeInsetsGeometry.all(20),
                           child: Row(
                             children: [
-                              Icon(
-                                CupertinoIcons.square_stack,
-                                size: w > h ? 50 : 30,
-                                color: Color.fromARGB(255, 97, 136, 153),
-                              ),
+                              Image.asset('icons/stack.png'),
                               Text(
                                 'TECH STACK.',
                                 style: TextStyle(
@@ -717,7 +713,7 @@ class MainApp extends StatelessWidget {
                                       children: [
                                         SizedBox(height: 25),
                                         Text(
-                                          "Sukkar IBA University",
+                                          "Sukkur IBA University",
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 18,
