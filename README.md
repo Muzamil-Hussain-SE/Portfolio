@@ -2,7 +2,7 @@
 
 My personal developer portfolio, built with Flutter and deployed on the web. It showcases who I am, what I've built, and how to get in touch.
 
-🔗 **Live site:** [muzamil-7.netlify.app](https://muzamil-hussain7.netlify.app/)
+🔗 **Live site:** [muzamil-hussain7.netlify.app](https://muzamil-hussain7.netlify.app/)
 
 ---
 
@@ -63,7 +63,7 @@ lib/
 - **Email:** [mailto:muzammilbinqasim@gmail.com](Email)
 - **LinkedIn:** [https://linkedin.com/in/muzamil-hussain-1a4693347](https://linkedin.com)
 - **GitHub:** [https://github.com/Muzamil-Hussain-SE](https://github.com/Muzamil-Hussain-SE)
-- **Portfolio:** [muzamil-7.netlify.app](https://muzamil-7.netlify.app/)
+- **Portfolio:** [muzamil-hussain7.netlify.app]([https://muzamil-7.netlify.app/](https://muzamil-hussain7.netlify.app/))
 
 ---
 
