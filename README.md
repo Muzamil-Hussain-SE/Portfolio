@@ -2,7 +2,7 @@
 
 My personal developer portfolio, built with Flutter and deployed on the web. It showcases who I am, what I've built, and how to get in touch.
 
-🔗 **Live site:** [muzamil-7.netlify.app](https://muzamil-7.netlify.app/)
+🔗 **Live site:** [muzamil-7.netlify.app](https://muzamil-hussain7.netlify.app/)
 
 ---
 
